@@ -2,7 +2,7 @@
 //
 // There is a full descriptions and discussion in the blog entry.
 // Code for blog entry:
-//
+// http://www.javascript-spreadsheet-programming.com/2016/03/returning-arrays-of-named-ranges-in-gas.html
 // There is a full descriptions and discussion in the blog entry.
 /*
 Add range names to the spreadsheet
