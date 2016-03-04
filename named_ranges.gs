@@ -14,7 +14,7 @@ function addRangeNames() {
         "column_names": "A2:I2",
         "league_champion_position": "A3:I3",
         "champions_league_positions": "A3:I6",
-        "europa_league": "A7:I7",
+        "europa_league_position": "A7:I7",
         "relegation_positions": "A20:I22"
       },
       rngName,
