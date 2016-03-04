@@ -1,6 +1,9 @@
 // Code for blog entry:
 //
 // There is a full descriptions and discussion in the blog entry.
+// Code for blog entry:
+//
+// There is a full descriptions and discussion in the blog entry.
 /*
 Add range names to the spreadsheet
 containing data returned by spreadsheet function call:
@@ -30,6 +33,7 @@ function addRangeNames() {
 Use JavaScript introspection to determine the object type
 and methods of one element returned by the Spreadsheet method
 "getNamedRanges()" and print them to the logger.
+Throws an error if there are no named ranges in the active spreadsheet.
 */
 function examineNamedRangeObject() {
   var ss = SpreadsheetApp.getActiveSpreadsheet(),
@@ -41,7 +45,7 @@ function examineNamedRangeObject() {
 /*
 Clean-up: Remove ALL range names from the active spreadsheet.
 */
-function clearAllNamedRngs() {
+function clearAllNamedRanges() {
   var ss = SpreadsheetApp.getActiveSpreadsheet(),
       namedRngs = ss.getNamedRanges();
   Array.forEach(namedRngs, function(namedRng) {
